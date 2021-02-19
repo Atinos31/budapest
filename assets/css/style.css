@@ -1,0 +1,86 @@
+body,html{
+    height: 100%;
+    margin: 0;
+    font-size: 16px;
+    font-family: 'Lato', sans-serif;
+    font-weight: 400;
+    line-height: 1.8em;
+    color:#666;
+}
+
+.img1, .img2, .img3, .img4{
+    position: relative;
+    opacity: 0.8;
+    background-position: center;
+    background-size: cober;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    /* parallel=fixed
+     scroll="normal*/
+}
+.img1{
+    background-image: url('../images/paliament.jpg');
+   min-height:100%;
+   
+
+
+}
+.img2{
+    background-image: url('../images/night.jpg');
+    min-height:100%;
+
+    
+}
+
+.img4{
+    background-image: url('../images/ci.jpg');
+    min-height: 100%;
+}
+
+.img3{
+    background-image: url('../images/cuisine.jpg');
+    min-height: 400px;
+    
+}
+
+.section{
+    text-align: center;
+    padding: 50px 80px;
+}
+
+.section-light{
+    background: #f4f4fa;
+    color: #666;
+}
+
+.section-dark{
+    background-color: #282e34;
+    color: #ddd;
+}
+
+.ptext{
+    position: absolute;
+    top: 50%;
+    width: 100%;
+    text-align: center;
+    color: #000;
+    font-size: 27px;
+    text-transform: uppercase;
+    letter-spacing:8px ;
+}
+
+.ptext .border{
+    background-color: #111;
+    color: #fff;
+    padding: 20px;
+}
+
+.ptext .border .trans{
+    background-color: transparent;
+}
+
+@media(max-width:568px){
+    .img1, .img2, .img3{
+        background-attachment: scroll;
+    }
+}
